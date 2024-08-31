@@ -7,7 +7,7 @@ function Scroll() {
         <VelocityScroll
             text="HIRE ME"
             default_velocity={2}
-            className="font-display text-center text-8xl font-bold tracking-[-0.05em] text-black drop-shadow-sm dark:text-white md:text-7xl md:leading-[5rem]"
+            className="font-display text-center text-8xl font-bold tracking-[-0.05em] text-black drop-shadow-sm md:text-7xl md:leading-[5rem]"
             />
     </div>
   );

@@ -4,7 +4,7 @@ function Footer(){
     return(
         <footer class="footer-container">
             <hr></hr>
-            <div class="footer-section">
+            <div class="footer-section a">
                 <div class="footer-box">
                     <h1 class="footer-h1">
                         GET IN TOUCH 
@@ -19,7 +19,7 @@ function Footer(){
                     <p class="footer-link">CONTACTME</p>
                 </div>
             </div>
-            <div class="footer-section">
+            <div class="footer-section b">
                 <div class="footer-box">
                     <p class="footer-txt">Hi. Thankyou for reading all the way though. If you have any 
                         questions, concerns, thoughts, or inquires. Please feel free 
