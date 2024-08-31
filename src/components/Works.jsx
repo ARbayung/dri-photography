@@ -1,4 +1,4 @@
-import react from "react";
+import React from "react";
 import stock from "./assets/stock.jpg"
 
 function Works(){
