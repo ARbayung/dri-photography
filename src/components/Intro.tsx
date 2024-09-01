@@ -3,7 +3,7 @@ import TextReveal from "./magicui/TextReveal.tsx";
  
 function Intro() {
   return (
-    <div className="sm-text-lg z-10 flex min-h-[12rem] items-center justify-center rounded-lg border bg-white text-black">
+    <div className="intro text-2xl z-20 flex min-h-[28rem] items-center justify-center bg-white text-black">
       <TextReveal text="Hello, I am Dri! I like taking photos and videos, welcome to my portfolio!" />
     </div>
   );

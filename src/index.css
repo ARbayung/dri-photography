@@ -20,6 +20,56 @@ input,select{vertical-align:middle}
 /*
 *  custom css
 */
+/*
+* global
+*/
+@import url(https://fonts.googleapis.com);
+@import url(https://fonts.gstatic.com);
+@import url(https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap);
+
+:root {
+  --black: black;
+  --white: #ffffff;
+
+  --headFont: "Bebas Neue", sans-serif;
+}
+
+.section{
+  height: auto;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 2em;
+  padding-bottom: 3em;
+}
+
+.section-header{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  width: 96%;
+}
+
+.section-h1{
+  margin-left: 1em;
+  font-size: 40px;
+  font-family: var(--headFont);
+}
+@media only screen and (max-width: 600px) {
+  .section-h1{
+    margin-left: 0.4em;
+  }
+}
+
+
+
+.section-h3{
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+/*
+* Nav
+*/
 .navbar{
   width: auto;
   padding: 1.5em;
@@ -35,7 +85,14 @@ input,select{vertical-align:middle}
 }
 
 .nav-item{
-  margin-left: 1em;;
+  margin-left: 1em;
+}
+
+.logo{
+  font-family: var(--headFont);
+  font-weight: 0;
+  font-size: 3em;
+  font-style: normal;
 }
 
 /* 
@@ -78,6 +135,8 @@ input,select{vertical-align:middle}
 
   .nav-item{
     width:80%;
+    font-size: 30px;
+    margin-left: 0;
   }
   
   .nav-menu.active {
@@ -85,7 +144,7 @@ input,select{vertical-align:middle}
   }
 
   .nav-menu.active hr {
-    width:80%
+    width:100%
   }
 
   .hamburger{
@@ -114,38 +173,6 @@ input,select{vertical-align:middle}
 .hero-container{
   height: 80vh;
   width: 100%;
-}
-
-/*
-* global
-*/
-@import url(https://fonts.googleapis.com);
-@import url(https://fonts.gstatic.com);
-@import url(https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap);
-
-.section{
-  height: auto;
-  width: 100%;
-  overflow: hidden;
-  padding-top: 2em;
-  padding-bottom: 3em;
-}
-
-.section-header{
-  display:flex;
-  align-items:center;
-  justify-content:space-between;
-  width: 96%;
-}
-
-.section-h1{
-  margin-left: 1em;
-  font-size: 40px;
-}
-
-.section-h3{
-  margin-top: 1em;
-  margin-bottom: 1em;
 }
 
 /*
@@ -287,10 +314,11 @@ hr{
 }
 
 .footer-h1{
-  font-size: 2.8em;
+  font-family: var(--headFont);
+  font-size:4em;
   width: 50%;
   line-height: 0.9;
-  margin-bottom: 3em;
+  margin-bottom: 1em;
 }
 @media only screen and (max-width: 600px){
   .footer-h1{
@@ -343,7 +371,8 @@ hr{
 }
 
 .footer-email{
-  font-size: 4em;
+  font-family: var(--headFont);
+  font-size: 6em;
 }
 @media only screen and (max-width: 600px) {
   .footer-email{
@@ -360,7 +389,8 @@ hr{
 
 
 .footer-banner{
-  font-size: 10.35vw;
+  font-family: var(--headFont);
+  font-size: 17.5vw;
 }
 @media only screen and (max-width: 600px) {
   .footer-banner{
@@ -371,4 +401,27 @@ hr{
   .footer-banner{
     font-size: 11vw;
   }
+}
+
+/*
+* intro
+*/
+
+.intro{
+  font-family: var(--headFont);
+}
+
+/*
+* slider
+*/
+
+.scroll{
+  font-family: var(--headFont);
+}
+
+.banner-h1{
+  font-family: var(--headFont);
+  color: white;
+  font-size: 2em;
+  width: 80%;  
 }
