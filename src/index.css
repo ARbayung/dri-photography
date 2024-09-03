@@ -171,7 +171,7 @@ input,select{vertical-align:middle}
     top: 0;
     flex-direction: column;
     /* background-image: url(./components/assets/stock.jpg); */
-    background-color: grey;
+    background-color: rgb(128, 128, 128, 0.94);
     color: white;
     width: 80%;
     height: 100vh;
@@ -198,6 +198,7 @@ input,select{vertical-align:middle}
   }
 
   .hamburger{
+    z-index: 1;
     display: block;
     cursor: pointer;
   }
@@ -535,6 +536,7 @@ hr{
 .footer-banner{
   font-family: var(--headFont);
   font-size: 17.5vw;
+  line-height: 0.9;
 }
 @media only screen and (max-width: 600px) {
   .footer-banner{
