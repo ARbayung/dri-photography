@@ -22,14 +22,18 @@ const Navbar = () => {
     return(
         <header>
             <nav className="navbar">
-            <a href="#" className="logo">DRI</a>
-            <ul className={`nav-menu ${active ? 'active' : ''}`}>
-                <li className="nav-item" onClick={closeMenu}>Shoots</li>
-                <hr></hr>
-                <li className="nav-item" onClick={closeMenu}>Videos</li>
-                <hr></hr>
-                <li className="nav-item" onClick={closeMenu}>Aboutme</li>
-            </ul>
+                <div className="navbar-left">
+                    <a href="#" className="logo">DRI</a>
+                    <ul className={`nav-menu ${active ? 'active' : ''}`}>
+                        <li className="nav-item" onClick={closeMenu}>Shoots</li>
+                        <hr></hr>
+                        <li className="nav-item" onClick={closeMenu}>Videos</li>
+                        <hr></hr>
+                        <li className="nav-item" onClick={closeMenu}>Aboutme</li>
+                        <div className="button mobile">connect</div>
+                    </ul>
+                </div>
+                <div className="button desk">contact me</div>
             <div class={`hamburger ${active ? 'active' : ''}`} onClick={mobileMenu}>
                 <span class="bar"></span>
                 <span class="bar"></span>
