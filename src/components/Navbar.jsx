@@ -30,7 +30,7 @@ const Navbar = () => {
                         <li className="nav-item" onClick={closeMenu}>Videos</li>
                         <hr></hr>
                         <li className="nav-item" onClick={closeMenu}>Aboutme</li>
-                        <div className="button mobile">connect</div>
+                        <button type="button" className="button mobile">connect</button>
                     </ul>
                 </div>
                 <div className="button desk">contact me</div>

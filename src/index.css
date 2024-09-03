@@ -221,13 +221,101 @@ input,select{vertical-align:middle}
 * hero
 */
 
-.hero-container{
-  height: 80vh;
-  width: 100%;
-}
-
 .landing-container{
   background-color: var(--offwhite);
+}
+
+.hero-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height:90vh;
+  width: auto;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+}
+
+.hero-top{
+  display: flex;
+  flex-direction: column;
+  align-items: start; 
+  justify-content: start;
+  width: 50%;
+}
+@media only screen and (max-width: 600px) {
+  .hero-top{
+    width: 100%;
+  }
+}
+
+.hero-bottom{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2em;
+}
+
+.hero-top h1{
+  line-height: 0.9em;
+  font-size: 90px;
+  font-family: var(--headFont);
+  color: var(--black);
+}
+@media only screen and (max-width: 600px) {
+  .hero-top h1{
+    font-size: 60px;
+  }
+}
+
+.hero-bottom h2{
+  line-height: 1em;
+  font-size: 30px;
+  font-weight: 100;
+  color: var(--black);
+}
+@media only screen and (max-width: 600px) {
+  .hero-bottom h2{
+    letter-spacing: 1px;
+    font-size: 22px;
+  }
+}
+
+.hero-bottom p{
+  font-weight: 100;
+  margin-top: 2em;
+  font-size: 16px;
+  color: var(--black);
+}
+@media only screen and (max-width: 600px) {
+  .hero-bottom p{
+    font-size: 18px;
+  }
+}
+
+.hero-button{
+  width: 10em;
+  height: 3em;
+  background-color: #101010;
+  text-align: center;
+  line-height: 2.4em;
+  color: white;
+  font-size: 24px;
+  border-width: 1.5px;
+  border-style: solid;
+  border-color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+@media only screen and (max-width: 600px) {
+  .hero-button{
+    font-size: 20px;
+  }
+}
+
+.hero-button:hover{
+  background-color: var(--offwhite);
+  border-color: var(--black);
+  color: var(--black);
 }
 
 /*
