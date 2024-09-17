@@ -3,7 +3,10 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,tsx}"],
   theme: {
-    extend: {},
+    bg: {
+      transparent: 'transparent',
+      offwhite: "#F1F1EF",
+    },
   },
   plugins: [],
 };

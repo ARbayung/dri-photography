@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from "react";
+import {Outlet, Link} from "react-router-dom";
 
 const Navbar = () => {
     const [active, setActive] = useState(false);
@@ -23,7 +24,7 @@ const Navbar = () => {
         <header>
             <nav className="navbar">
                 <div className="navbar-left">
-                    <a href="#" className="logo">DRI</a>
+                    <Link to="/"><div className="logo">Dri</div></Link>
                     <ul className={`nav-menu ${active ? 'active' : ''}`}>
                         <li className="nav-item" onClick={closeMenu}>Shoots</li>
                         <hr></hr>
@@ -34,12 +35,12 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="button desk">contact me</div>
-            <div class={`hamburger ${active ? 'active' : ''}`} onClick={mobileMenu}>
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-        </nav>
+                <div className={`hamburger ${active ? 'active' : ''}`} onClick={mobileMenu}>
+                    <span className="bar"></span>
+                    <span className="bar"></span>
+                    <span className="bar"></span>
+                </div>
+            </nav>
         </header>
     )
 }

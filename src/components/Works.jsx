@@ -1,5 +1,6 @@
 import React from "react";
-import stock from "./assets/stock.jpg"
+import {Outlet, Link} from "react-router-dom";
+import stock from "./assets/stock.jpg";
 
 function Works(){
     return(
@@ -10,7 +11,7 @@ function Works(){
             </div>
             <div class="work-container">
                 <div class="work">
-                    <a><img src={stock} class="work-img"/></a>
+                    <Link to="/Projects"><img src={stock} class="work-img"/></Link>
                     <h3 class="section-h3">Street</h3>
                 </div>
                 <div class="work">
@@ -22,6 +23,7 @@ function Works(){
                     <h3 class="section-h3">Commercial</h3>
                 </div>
             </div>
+            <Outlet/>
         </div>
     )
 }

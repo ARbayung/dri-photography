@@ -26,6 +26,9 @@ input,select{vertical-align:middle}
 @import url(https://fonts.googleapis.com);
 @import url(https://fonts.gstatic.com);
 @import url(https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap);
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
 
 :root {
   --black: black;
@@ -118,6 +121,7 @@ input,select{vertical-align:middle}
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  background-color: transparent;
 }
 
 .navbar-left{
@@ -132,6 +136,22 @@ input,select{vertical-align:middle}
 
 .nav-item{
   margin-left: 1em;
+  letter-spacing: 2px;
+  border-bottom: 2px solid transparent;
+}
+@media only screen and (max-width: 600px) {
+  .nav-item{
+    letter-spacing: 3px;
+    width:80%;
+    font-size: 30px;
+    margin-left: 0;
+    font-weight: 100;
+    border-bottom: 2px solid transparent;
+  }
+}
+
+.nav-item:hover{
+  border-bottom: 2px solid black
 }
 
 .logo{
@@ -164,33 +184,25 @@ input,select{vertical-align:middle}
 */
 
 @media only screen and (max-width: 600px) {
-
   .nav-menu {
     position: fixed;
-    right: -100%;
+    right: -100%; 
     top: 0;
     flex-direction: column;
-    /* background-image: url(./components/assets/stock.jpg); */
     background-color: rgb(128, 128, 128, 0.94);
     color: white;
     width: 80%;
-    height: 100vh;
+    height: 100%;
     padding-top: 4.8em;
     text-align: right;
     align-items:center;
     transition: 0.3s;
     overflow-y:hidden;
   }
-
-  .nav-item{
-    width:80%;
-    font-size: 30px;
-    margin-left: 0;
-    font-weight: 100;
-  }
   
   .nav-menu.active {
     right: 0;
+    
   }
 
   .nav-menu.active hr {
@@ -255,6 +267,11 @@ input,select{vertical-align:middle}
   align-items: center;
   justify-content: space-between;
   margin-bottom: 2em;
+}
+@media only screen and (max-width: 600px) {
+  .hero-bottom{
+    margin-bottom: 4em;
+  }
 }
 
 .hero-top h1{

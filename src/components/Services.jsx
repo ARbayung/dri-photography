@@ -1,5 +1,6 @@
 import React from 'react';
-import stock from './assets/stock.jpg'
+import stock from './assets/stock.jpg';
+import {Link} from 'react-router-dom'
 
 function Services(){
     return(
@@ -10,14 +11,14 @@ function Services(){
             </div>
             <div class="service-container">
                 <div class="service">
-                    <a>
+                    <Link to="/Service">
                         <img src={stock} class="service-img"/>
-                    </a>
+                    </Link>
                 </div>
                 <div class="service">
-                    <a>
+                    <Link to="/Service">
                         <img src={stock} class="service-img"/>
-                    </a>
+                    </Link>
                 </div>
             </div>
         </div>

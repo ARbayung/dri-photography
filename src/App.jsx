@@ -6,20 +6,21 @@ import Banner from './components/Banner.jsx';
 import Footer from './components/Footer.jsx';
 import Scroll from './components/Scroll.tsx'
 import Intro from './components/Intro.tsx';
-import css from '../src/App.css'
+import css from '../src/App.css';
 
 function App() {
   return (
     <div>
-      <header className='landing-container'>
-        <Navbar/>
+      {/* <header className='landing-container'> */}
         <Hero/>
-      </header>
+      {/* </header> */}
+        <body>
         <Intro/>
         <Services/>
         <Works/>
         <Scroll/>
         <Banner/>
+        </body>
         <Footer/>
     </div>
   );
