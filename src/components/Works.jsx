@@ -19,9 +19,10 @@ function Works(){
                                         className="work-img"
                                         src={data.src} 
                                         alt="img"
-                                    />
+                                    >
+                                    </img>
+                                    <h3 className="section-h3">{data.title}</h3>
                                     </Link>
-                                    <h3 className="Section-h3">{data.title}</h3>
                                 </div>
                             )
                         })

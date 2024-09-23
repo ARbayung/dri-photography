@@ -5,8 +5,6 @@ import LandingVideo from './assets/Sample.mp4'
 function Hero(){
     return(
         <div className="hero-container">
-            <video class="hero-video" autoPlay muted loop>
-            <source src={LandingVideo} type="video/mp4" />
             <div className="hero-top">
                 <h1>Lets work together for beautiful results.</h1>
                 <button type="hero-button" className="hero-button">explore</button>
@@ -18,6 +16,8 @@ function Hero(){
                 </h2>
                 <p>Explore</p>
             </div>
+            <video class="hero-video" autoPlay muted loop>
+            <source src={LandingVideo} type="video/mp4" />
             </video>
         </div>
     )

@@ -1,21 +1,33 @@
 [
     {
         "id": "1",
-        "title": "Street",
+        "title": "Portraits & Editorial",
         "src": "/assets/stock.jpg",
         "images": [
             {
-            "img": "/assets/stock.jpg"
+            "img": "/assets/img1.jpg"
             },{
-            "img": "/assets/stock.jpg"
+            "img": "/assets/img2.jpg"
             },{
-            "img": "/assets/stock.jpg"
-            }
+            "img": "/assets/img3.jpg"
+            },{
+                "img": "/assets/img4.jpg"
+                },{
+                    "img": "/assets/img5.jpg"
+                    },{
+                        "img": "/assets/img6.jpg"
+                        },{
+                            "img": "/assets/img7.jpg"
+                            },{
+                                "img": "/assets/img8.jpg"
+                                },{
+                                    "img": "/assets/img9.jpg"
+                                    }
         ]
     },
     {
         "id": "2",
-        "title": "Wedding",
+        "title": "Weddings",
         "src": "/assets/stock.jpg",
         "images": [
             {
@@ -29,7 +41,49 @@
     },
     {
         "id": "3",
-        "title": "Conmmercial",
+        "title": "Brand work",
+        "src": "/assets/stock.jpg",
+        "images": [
+            {
+            "img": "/assets/stock.jpg"
+            },{
+            "img": "/assets/stock.jpg"
+            },{
+            "img": "/assets/stock.jpg"
+            }
+        ]
+    },
+    {
+        "id": "4",
+        "title": "Sports",
+        "src": "/assets/stock.jpg",
+        "images": [
+            {
+            "img": "/assets/stock.jpg"
+            },{
+            "img": "/assets/stock.jpg"
+            },{
+            "img": "/assets/stock.jpg"
+            }
+        ]
+    },
+    {
+        "id": "5",
+        "title": "Corporate",
+        "src": "/assets/stock.jpg",
+        "images": [
+            {
+            "img": "/assets/stock.jpg"
+            },{
+            "img": "/assets/stock.jpg"
+            },{
+            "img": "/assets/stock.jpg"
+            }
+        ]
+    },
+    {
+        "id": "6",
+        "title": "Products",
         "src": "/assets/stock.jpg",
         "images": [
             {
