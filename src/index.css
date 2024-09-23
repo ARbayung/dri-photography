@@ -233,6 +233,15 @@ input,select{vertical-align:middle}
 /*
 * hero
 */
+.hero-video{
+  height: 100vh;
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  left: 0;
+}
 
 .landing-container{
   background-color: var(--offwhite);
@@ -288,7 +297,7 @@ input,select{vertical-align:middle}
 
 .hero-bottom h2{
   line-height: 1em;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 100;
   color: var(--black);
 }
@@ -589,4 +598,48 @@ hr{
   font-size: 2em;
   width: 80%;  
   letter-spacing: 3px;
+}
+
+/*
+* Project
+*/
+
+.project-container{
+  padding: 0em;
+}
+
+.project-header{
+  width: 100%;
+  height: 30vh;
+  background-color: red;
+  display: flex;
+  align-items: end;
+  justify-content: start;
+}
+
+.project-header h1{
+  font-size: 4em;
+  color: white;
+  padding: 20px;
+  letter-spacing: -2px;
+}
+
+/*
+*Gallery
+*/
+.gallery-title{
+  text-align: center;
+  font-family: var(--headFont);
+  font-size: 4em;
+}
+
+.gallery-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
+}
+
+.gallery-images{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }

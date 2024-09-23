@@ -11,16 +11,12 @@ import css from '../src/App.css';
 function App() {
   return (
     <div>
-      {/* <header className='landing-container'> */}
         <Hero/>
-      {/* </header> */}
-        <body>
         <Intro/>
         <Services/>
         <Works/>
         <Scroll/>
         <Banner/>
-        </body>
         <Footer/>
     </div>
   );

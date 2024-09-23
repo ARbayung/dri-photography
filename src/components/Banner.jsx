@@ -3,10 +3,10 @@ import stock from './assets/stock.jpg';
 
 function Banner(){
     return(
-        <div class="banner-container">
-            <img src={stock} class="banner-img">
+        <div className="banner-container">
+            <img src={stock} className="banner-img">
             </img>
-            <h1 class="banner-h1">
+            <h1 className="banner-h1">
             Portrait photographer
             seeking to capture  
             identities, expressions,

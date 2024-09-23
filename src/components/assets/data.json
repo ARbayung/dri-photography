@@ -1,0 +1,44 @@
+[
+    {
+        "id": "1",
+        "title": "Street",
+        "src": "/assets/stock.jpg",
+        "images": [
+            {
+            "img": "/assets/stock.jpg"
+            },{
+            "img": "/assets/stock.jpg"
+            },{
+            "img": "/assets/stock.jpg"
+            }
+        ]
+    },
+    {
+        "id": "2",
+        "title": "Wedding",
+        "src": "/assets/stock.jpg",
+        "images": [
+            {
+            "img": "/assets/stock.jpg"
+            },{
+            "img": "/assets/stock.jpg"
+            },{
+            "img": "/assets/stock.jpg"
+            }
+        ]
+    },
+    {
+        "id": "3",
+        "title": "Conmmercial",
+        "src": "/assets/stock.jpg",
+        "images": [
+            {
+            "img": "/assets/stock.jpg"
+            },{
+            "img": "/assets/stock.jpg"
+            },{
+            "img": "/assets/stock.jpg"
+            }
+        ]
+    }
+]
