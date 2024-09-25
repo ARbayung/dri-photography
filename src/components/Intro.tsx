@@ -1,6 +1,5 @@
 import React from "react";
 import TextReveal from "./magicui/TextReveal.tsx";
-import stock from "./assets/stock.jpg";
  
 function Intro() {
   return (
