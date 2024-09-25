@@ -1,5 +1,8 @@
 import React from "react";
-
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import stock from "./assets/img5.jpg";
 function Footer(){
     return(
         <footer className="footer-container">
@@ -14,10 +17,13 @@ function Footer(){
                     </h1>
                 </div>
                 <div className="footer-links">
-                    <p className="footer-link">INSTAGRAM</p>
-                    <p className="footer-link">FACEBOOK</p>
-                    <p className="footer-link">CONTACTME</p>
+                    <a href="/" className="footer-link">CONTACTME</a>
+                    <hr></hr>
+                    <a href="/" className="footer-link"><FontAwesomeIcon icon={faInstagram} className="social-button"/></a>
+                    <a href="/" className="footer-link"><FontAwesomeIcon icon={faEnvelope} className="social-button"/></a>
+                    
                 </div>
+                <img src={stock}></img>
             </div>
             <div className="footer-section b">
                 <div className="footer-box">

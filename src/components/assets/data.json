@@ -2,7 +2,7 @@
     {
         "id": "1",
         "title": "Portraits & Editorial",
-        "src": "/assets/stock.jpg",
+        "src": "/assets/img1.jpg",
         "images": [
             {
             "img": "/assets/img1.jpg"
@@ -28,7 +28,7 @@
     {
         "id": "2",
         "title": "Weddings",
-        "src": "/assets/stock.jpg",
+        "src": "/assets/img2.jpg",
         "images": [
             {
             "img": "/assets/stock.jpg"
@@ -42,7 +42,7 @@
     {
         "id": "3",
         "title": "Brand work",
-        "src": "/assets/stock.jpg",
+        "src": "/assets/img3.jpg",
         "images": [
             {
             "img": "/assets/stock.jpg"
@@ -56,7 +56,7 @@
     {
         "id": "4",
         "title": "Sports",
-        "src": "/assets/stock.jpg",
+        "src": "/assets/img4.jpg",
         "images": [
             {
             "img": "/assets/stock.jpg"
@@ -70,7 +70,7 @@
     {
         "id": "5",
         "title": "Corporate",
-        "src": "/assets/stock.jpg",
+        "src": "/assets/img5.jpg",
         "images": [
             {
             "img": "/assets/stock.jpg"
@@ -84,7 +84,7 @@
     {
         "id": "6",
         "title": "Products",
-        "src": "/assets/stock.jpg",
+        "src": "/assets/img6.jpg",
         "images": [
             {
             "img": "/assets/stock.jpg"

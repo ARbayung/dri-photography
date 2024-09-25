@@ -1,13 +1,17 @@
 import React from 'react';
 import LandingVideo from './assets/Sample.mp4'
-// import BoxReveal from './magicui/BoxReveal';
+import BoxReveal from './magicui/BoxReveal.tsx';
 
 function Hero(){
     return(
         <div className="hero-container">
             <div className="hero-top">
+            <BoxReveal boxColor={"white"} duration={0.5}>
                 <h1>Lets work together for beautiful results.</h1>
+                </BoxReveal>
+                <BoxReveal boxColor={"white"} duration={0.5}>
                 <button type="hero-button" className="hero-button">explore</button>
+                </BoxReveal>
             </div>
             <div className="hero-bottom">
                 <h2>Expert in high 

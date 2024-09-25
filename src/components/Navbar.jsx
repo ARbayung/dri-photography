@@ -3,6 +3,7 @@ import {Link} from "react-router-dom";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { FadeText } from "./magicui/FadeText.tsx";
 
 const Navbar = () => {
     const [active, setActive] = useState(false);
@@ -26,15 +27,53 @@ const Navbar = () => {
     return(
         <header>
             <nav className="navbar">
-                <div className="navbar-left">
-                    <Link to="/"><div className="logo">Drii Francisco</div></Link>
-                </div>
+                
+                    <div className="navbar-left">
+                        <Link to="/">
+                        <FadeText
+                            className="logo text-4xl"
+                            direction="down"
+                            framerProps={{
+                                show:{transition:{delay:0.6}},
+                            }}
+                            text="Dri">
+                        </FadeText>
+                        </Link>
+                    </div>
+                
                 <ul className={`nav-menu ${active ? 'active' : ''}`}>
-                        <li className="nav-item" onClick={closeMenu}>Shoots</li>
+                        <li className="nav-item" onClick={closeMenu}>
+                        <FadeText
+                            className="nav-item"
+                            direction="down"
+                            framerProps={{
+                                show:{transition:{delay:0.6}},
+                            }}
+                            text="photos">
+                        </FadeText>
+                        </li>
                         <hr></hr>
-                        <li className="nav-item" onClick={closeMenu}>Videos</li>
+                        <li className="nav-item" onClick={closeMenu}>
+                        <FadeText
+                            className="nav-item"
+                            direction="down"
+                            framerProps={{
+                                show:{transition:{delay:0.6}},
+                            }}
+                            text="films">
+                        </FadeText>
+                        </li>
                         <hr></hr>
-                        <li className="nav-item" onClick={closeMenu}>Aboutme</li>
+                        <li className="nav-item" onClick={closeMenu}>
+                        <FadeText
+                            className="nav-item"
+                            direction="down"
+                            framerProps={{
+                                show:{transition:{delay:0.6}},
+                            }}
+                            text="enquires">
+                        </FadeText>
+                        </li>
                         <button type="button" className="button mobile">connect</button>
                 </ul>
                 <div className="nav-social">

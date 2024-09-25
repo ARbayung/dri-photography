@@ -94,7 +94,7 @@ export function VelocityScroll({
         className="w-full overflow-hidden whitespace-nowrap"
         ref={containerRef}
       >
-        <motion.div className={cn("inline-block", className)} style={{ x }}>
+        <motion.div className={cn("inline-block leading-none", className)} style={{ x }}>
           {Array.from({ length: repetitions }).map((_, i) => (
             <span key={i} ref={i === 0 ? textRef : null}>
               {children}{" "}
@@ -106,7 +106,7 @@ export function VelocityScroll({
   }
  
   return (
-    <section className="relative w-full">
+    <section className="relative bg-offwhite w-full p-0 m-0 overflow-hidden">
       <ParallaxText baseVelocity={default_velocity} className={className}>
         {text}
       </ParallaxText>
