@@ -6,7 +6,7 @@ import {Link} from 'react-router-dom';
 
 function Services(){
     return(
-        <div className="section">
+        <div className="section projects">
             <div className="section-header">
                 <h1 className="section-h1">Services</h1>
                 <p>View Packages</p>

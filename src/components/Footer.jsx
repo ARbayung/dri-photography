@@ -13,7 +13,7 @@ function Footer(){
                         GET IN TOUCH 
                         WITH 
                         <br></br>
-                        DRI PHOTOS.
+                        DRII FRANCISCO.
                     </h1>
                 </div>
                 <div className="footer-links">
