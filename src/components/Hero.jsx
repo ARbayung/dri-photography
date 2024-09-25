@@ -16,7 +16,7 @@ function Hero(){
                 </h2>
                 <p>Explore</p>
             </div>
-            <video class="hero-video" autoPlay muted loop>
+            <video className="hero-video" autoPlay muted loop playsInline>
             <source src={LandingVideo} type="video/mp4" />
             </video>
         </div>
