@@ -3,6 +3,7 @@
         "id": "1",
         "title": "Portraits & Editorial",
         "src": "/assets/img1.jpg",
+        "discription": "From fashion to lifestyle, I work closely with my clients to create striking visuals that capture the heart of the story and elevate any editorial piece.",
         "images": [
             {
             "img": "/assets/img1.jpg"
@@ -29,6 +30,7 @@
         "id": "2",
         "title": "Weddings",
         "src": "/assets/img2.jpg",
+        "discription":"Capture the magic of your special day with timeless, cinematic moments. From intimate ceremonies to grand celebrations, we document the emotions, beauty, and joy, creating memories that last a lifetime.",
         "images": [
             {
             "img": "/assets/stock.jpg"
@@ -43,6 +45,7 @@
         "id": "3",
         "title": "Brand work",
         "src": "/assets/img3.jpg",
+        "discription":"Bring your brand to life with compelling visuals. Whether you need promotional videos or product photography, we help you tell your brand's story in a way that resonates with your audience.",
         "images": [
             {
             "img": "/assets/stock.jpg"
@@ -57,6 +60,7 @@
         "id": "4",
         "title": "Sports",
         "src": "/assets/img4.jpg",
+        "discription":"Freeze the thrill of the game in action-packed photos and videos. From high-energy performances to breathtaking moments, we capture the intensity and spirit of athletes in motion.",
         "images": [
             {
             "img": "/assets/stock.jpg"
@@ -71,6 +75,7 @@
         "id": "5",
         "title": "Corporate",
         "src": "/assets/img5.jpg",
+        "discription":"Professional, polished, and impactful visual content for your business. Showcase your corporate events, team culture, or branding with high-quality photography and videography tailored to your needs.",
         "images": [
             {
             "img": "/assets/stock.jpg"
@@ -85,6 +90,7 @@
         "id": "6",
         "title": "Products",
         "src": "/assets/img6.jpg",
+        "discription":"Highlight the details that make your products stand out. From lifestyle shots to crisp studio photography, we ensure your products shine with exceptional imagery that drives engagement.",
         "images": [
             {
             "img": "/assets/stock.jpg"

@@ -15,13 +15,18 @@ function Works(){
                             return(
                                 <div className="work" key={data.id}>
                                     <Link to={`/Works/${data.id}`}>
-                                    <img 
-                                        className="work-img"
-                                        src={data.src} 
-                                        alt="img"
-                                    >
-                                    </img>
-                                    <h3 className="section-h3">{data.title}</h3>
+                                    <div className="work-img-container">
+                                    </div>
+                                        <img 
+                                            className="work-img"
+                                            src={data.src} 
+                                            alt="img"
+                                        >
+                                        </img>
+                                    
+                                        <h3 className="section-h3">{data.title}</h3>
+                                        <p className="section-p">{data.discription}</p>            
+                                        
                                     </Link>
                                 </div>
                             )
