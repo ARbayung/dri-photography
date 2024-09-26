@@ -9,14 +9,12 @@ import css from '../src/App.css';
 
 function App() {
   return (
-    <div>
-        
+    <div>  
         <Hero/>
         <Intro/>
         <Services/>
         <Works/>
         <Scroll/>
-        <Footer/>
     </div>
   );
 }

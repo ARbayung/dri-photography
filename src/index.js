@@ -9,6 +9,7 @@ import Navbar from './components/Navbar';
 import Service from './components/Service';
 import Gallery from './components/Gallery';
 import Works from './components/Works';
+import Footer from './components/Footer';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -24,6 +25,7 @@ root.render(
         <Route path="/Works" element={<Works />} />
         <Route path="/Works/:id" element={<Gallery />} />
       </Routes>
+      <Footer/>
     </BrowserRouter>
   </React.StrictMode>
 );

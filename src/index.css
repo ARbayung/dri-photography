@@ -776,12 +776,33 @@ hr{
 }
 
 .gallery-container{
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  padding: 1em;
+}
 
+.gallery-img{
+  padding: 5px;
 }
 
 .gallery-images{
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  line-height: 0;
+  -webkit-column-count: 3;
+  -webkit-column-gap:   0px;
+  -moz-column-count:    3;
+  -moz-column-gap:      0px;
+  column-count:         3;
+  column-gap:           0px; 
+}
+@media (max-width: 800px) {
+  .gallery-images {
+  -moz-column-count:    2;
+  -webkit-column-count: 2;
+  column-count:         2;
+  }
+}
+@media (max-width: 400px) {
+  .gallery-images {
+  -moz-column-count:    1;
+  -webkit-column-count: 1;
+  column-count:         1;
+  }
 }

@@ -2,12 +2,19 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import data from "./assets/data.json";
 import Footer from "./Footer";
+import BlurFade from "./magicui/BlurFade.tsx";
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 
 function Gallery() {
-    // Extract the id parameter from the route
+    const { pathname } = useLocation();
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [pathname]);
+
     const { id } = useParams();
   
-    // Find the corresponding work based on the id
     const work = data.find((item) => item.id === id);
   
     if (!work) {
@@ -20,14 +27,15 @@ function Gallery() {
                 <div className="gallery-container">
                     <div className="gallery-images">
                     {work.images.map((image, index) => (
+                        <BlurFade key={image} delay={0.25 + index * 0.2} inView>
                         <img key={index} 
                         src={image.img} 
                         alt={work.title} 
-                        className="gallery-img zoom" />
+                        className="gallery-img" />
+                        </BlurFade>
                     ))}
                     </div>
                 </div>
-                <Footer />
             </div>
     );
   }
