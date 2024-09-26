@@ -17,8 +17,6 @@ function Footer(){
                     </h1>
                 </div>
                 <div className="footer-links">
-                    <a href="/" className="footer-link">CONTACTME</a>
-                    <hr></hr>
                     <a href="/" className="footer-link"><FontAwesomeIcon icon={faInstagram} className="social-button"/></a>
                     <a href="/" className="footer-link"><FontAwesomeIcon icon={faEnvelope} className="social-button"/></a>
                     

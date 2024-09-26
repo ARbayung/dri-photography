@@ -450,6 +450,7 @@ input,select{vertical-align:middle}
   margin-top: -3px;
   object-fit: cover;
   height: 100%;
+  width: 100%;
 }
 
 .service-container .service:nth-child(1) .service-img {
@@ -583,7 +584,7 @@ hr{
 
 .footer-links{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   margin-top: 1.5em;
 }@media only screen and (max-width: 600px) {
   .footer-links{
@@ -591,6 +592,12 @@ hr{
   }
 }
 
+.footer-link .social-button{
+  color: white;
+  margin-right: 1em;
+  height: 40px;
+  width: 40px;
+}
 
 
 .footer-link{
@@ -601,6 +608,7 @@ hr{
 @media only screen and (max-width: 600px) {
   .footer-link{
     line-height: 1.8;
+
   }
 }
 
