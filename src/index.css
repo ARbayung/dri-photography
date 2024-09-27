@@ -409,8 +409,8 @@ input,select{vertical-align:middle}
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
+  grid-column-gap: 6px;
+  grid-row-gap: 6px;
   overflow-x: hidden;
 }
 @media only screen and (max-width: 600px) {
@@ -425,15 +425,15 @@ input,select{vertical-align:middle}
 }
 
 .work{
-  margin: 4px;
+  margin-left: 4px;
   position: relative;
   display: block;
   width: 100%;
 }
 @media only screen and (max-width:600px){
   .work{
-    min-width: 65vh;
-    height:  auto;
+    min-width: 45vh;
+    height:  60vh;
   }
 }
 .work-img-container{
@@ -464,7 +464,7 @@ input,select{vertical-align:middle}
 }
 @media only screen and (max-width: 600px) {
   .work-img{
-    aspect-ratio: 1 / 1.1;
+    aspect-ratio: 1 / 1.4;
   }
 }
 
