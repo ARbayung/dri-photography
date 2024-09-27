@@ -123,11 +123,10 @@ input,select{vertical-align:middle}
   }
 }
 
-
 .social-button{
-  height: 25px;
-  width: 25px;
-  color: var(--black);
+  filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%);
+  height: 2em;
+  width: 2em;
 }
 .social-button:hover{
   color: var(--offwhite);
@@ -158,7 +157,6 @@ input,select{vertical-align:middle}
   flex-direction: row;
   width: 200px;
   justify-content: space-between;
-  
 }
 
 .nav-item{
@@ -194,7 +192,10 @@ input,select{vertical-align:middle}
   }
 }
 
-
+.nav-icon{
+  height: 2em;
+  width: auto;
+}
 /* 
 * hamburger
 */
@@ -417,6 +418,7 @@ input,select{vertical-align:middle}
   .work-container{
     display: flex;
     flex-direction: row;
+    overflow-y: hidden;
     overflow-x: scroll;
   }
 }
@@ -592,8 +594,8 @@ hr{
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  background-color: var(--black);
-  color: var(--offwhite);
+  background-color: var(--offwhite);
+  color: var(--black);
   padding-top: 4em;
 }@media only screen and (max-width: 600px) {
   .footer-container{
@@ -617,21 +619,9 @@ hr{
   }
 }
 
-.footer-section img{
-  position: absolute;
-  right: 0;
-  width: 45%;
-  height: 18em;
-  object-fit: cover;
-}@media only screen and (max-width: 600px) {
-  .footer-section img{
-    display: none;
-  }
-}
-
 
 .footer-box{
-  width: 45%;
+  width: 60%;
   margin-top: 1.5em;
 }
 @media only screen and (max-width: 600px){
@@ -674,7 +664,6 @@ hr{
 }
 
 .footer-link .social-button{
-  color: white;
   margin-right: 1em;
   height: 40px;
   width: 40px;
@@ -694,8 +683,11 @@ hr{
 }
 
 .footer-txt{
-  width: 65%;
+  width: 75%;
   line-height: 1.2;
+  font-weight: 100;
+  font-style: italic;
+  margin-top: 10px;
 }
 @media only screen and (max-width: 600px) {
   .footer-txt{
@@ -716,7 +708,6 @@ hr{
   font-family: var(--headFont);
   font-size: 6em;
   z-index: 5;
-  mix-blend-mode: difference;
 }
 @media only screen and (max-width: 600px) {
   .footer-email{
@@ -738,7 +729,6 @@ hr{
   font-size: 17.5vw;
   line-height: 0.9;
   z-index: 5;
-  mix-blend-mode: difference;
 }
 @media only screen and (max-width: 600px) {
   .footer-banner{
@@ -770,7 +760,6 @@ hr{
 
 .banner-h1{
   font-family: var(--headFont);
-  color: white;
   font-size: 2em;
   width: 80%;  
   letter-spacing: 3px;
@@ -888,9 +877,13 @@ hr{
   }
 }
 
-.contact-services div{
-  margin: 1em 0em 1em 0em;
+.contact-services-container{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-top: 1em;
 }
+
 
 .contact-services h1{
   font-size: 2em;
@@ -1021,3 +1014,9 @@ hr{
   width: 100%;
 }
 
+.contact-icon{
+  filter: brightness(0) saturate(100%) invert(99%) sepia(0%) saturate(3212%) hue-rotate(265deg) brightness(113%) contrast(89%);
+  height: 2em;
+  width: 2em;
+  margin-right: 1em;
+}

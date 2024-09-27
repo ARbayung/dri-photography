@@ -1,9 +1,8 @@
 import React, {useState, useEffect} from "react";
 import {Link} from "react-router-dom";
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import { faInstagram } from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { FadeText } from "./magicui/FadeText.tsx";
+import igicon from "./assets/icon-ig1.svg";
+import mailicon from "./assets/icon-mail.svg";
 
 const Navbar = () => {
     const [active, setActive] = useState(false);
@@ -77,11 +76,11 @@ const Navbar = () => {
                         <button type="button" className="button mobile">connect</button>
                 </ul>
                 <div className="nav-social">
-                    <a href="https://www.instagram.com/driifrancisco/">
-                        <FontAwesomeIcon icon={faInstagram} className="social-button"/>
-                    </a>
                     <a href="">
-                        <FontAwesomeIcon icon={faEnvelope} className="social-button"/>
+                        <img src={mailicon} alt="mail icon" className="nav-icon" />
+                    </a>
+                    <a href="https://www.instagram.com/driifrancisco/">
+                        <img src={igicon} alt="Instagram Icon" className="nav-icon"/>
                     </a>
                 </div>
                 <div className={`hamburger ${active ? 'active' : ''}`} onClick={mobileMenu}>
