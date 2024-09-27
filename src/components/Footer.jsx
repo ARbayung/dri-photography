@@ -17,13 +17,36 @@ function Footer(){
                     </h1>
                 </div>
                 <div className="footer-links">
-                    <a href="/" className="footer-link">
-                        <img src={igicon} className="social-button"/>
-                    </a>
-                    <a href="/" className="footer-link">
-                        <img src={mailicon} className="social-button"/>
-                    </a>
-                    
+                    <div>
+                        <h3>Contact me</h3>
+                        <a href="/" className="footer-link">
+                            <img src={igicon} className="social-button"/>
+                        </a>
+                        <a href="/" className="footer-link">
+                            <img src={mailicon} className="social-button"/>
+                        </a>
+                    </div>
+                    <div>
+                        <h3>All links to work</h3>
+                        <a href="" className="footer-link">
+                            <p>portraits & editorial</p>
+                        </a>
+                        <a href="" className="footer-link">
+                            <p>wedding</p>
+                        </a>
+                        <a href="" className="footer-link">
+                            <p>brand work</p>
+                        </a>
+                        <a href="" className="footer-link">
+                            <p>sport</p>
+                        </a>
+                        <a href="" className="footer-link">
+                            <p>corporate</p>
+                        </a>
+                        <a href="" className="footer-link">
+                            <p>product</p>
+                        </a>
+                    </div>
                 </div>
             </div>
             <div className="footer-section b">
