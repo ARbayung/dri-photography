@@ -9,7 +9,7 @@ function Services(){
         <div className="section services">
             <div className="section-header">
                 <h1 className="section-h1">Services</h1>
-                <p>View Packages</p>
+                <p>See more</p>
             </div>
             <div className="service-container">
                 <div className="service">

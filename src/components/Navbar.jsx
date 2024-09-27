@@ -36,7 +36,7 @@ const Navbar = () => {
                             framerProps={{
                                 show:{transition:{delay:0.6}},
                             }}
-                            text="Drii">
+                            text="Drii Francisco">
                         </FadeText>
                         </Link>
                     </div>
