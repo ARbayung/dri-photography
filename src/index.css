@@ -131,7 +131,7 @@ input,select{vertical-align:middle}
 
 .navbar{
   width: auto;
-  padding: 1em;
+  padding: 0em 1em 0em 1em;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -290,7 +290,7 @@ input,select{vertical-align:middle}
 }
 
 .hero-top{
-  margin-top: 20px;
+  margin-top: 0px;
   display: flex;
   flex-direction: column;
   align-items: start; 
@@ -931,6 +931,7 @@ hr{
   color: var(--offwhite);
   backdrop-filter: blur(5px);
 -webkit-backdrop-filter: blur(5px);
+  overflow: hidden;
 }
 @media only screen and (max-width: 600px) {
   .contact-container{
@@ -948,6 +949,7 @@ hr{
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+  overflow: hidden;
 }
 @media only screen and (max-width:600px){
   .form-wrapper{
@@ -982,6 +984,7 @@ hr{
 }
 
 .contact-input{
+  position: relative;
   background-color:transparent;
   width: 100%;
   outline: none;
@@ -991,6 +994,8 @@ hr{
   margin: 4px;
   padding-bottom: 10px;
   border-bottom: 1px solid var(--offwhite);
+  box-sizing:border-box;
+  resize: none;
 }
 @media only screen and (max-width:600px){
   .contact-input{
@@ -999,6 +1004,7 @@ hr{
 }
 
 .contact-textarea{
+  position: relative;
   background-color: transparent;
   width: 100%;
   outline: none;
@@ -1006,6 +1012,7 @@ hr{
   resize: none;
   min-height: 100px;
   border-bottom: 1px solid var(--offwhite);
+  box-sizing:border-box;
 }
 
 .contact-button{
@@ -1045,4 +1052,9 @@ hr{
   height: 2em;
   width: 2em;
   margin-right: 1em;
+}
+
+.error-border {
+  border-bottom: 2px solid red;
+  outline: none;
 }

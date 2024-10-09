@@ -1,7 +1,6 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import data from "./assets/data.json";
-import Footer from "./Footer";
 import BlurFade from "./magicui/BlurFade.tsx";
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
